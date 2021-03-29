@@ -24,7 +24,7 @@ h3 {
     background-image: url(./assest/coding.jpeg);
     text-align: left;
     color: white;
-    font-size: 110%;
+    font-size: 180%;
     font-family: serif;
 }
 nav a:hover {
@@ -212,6 +212,8 @@ box-shadow: 10px 10px 10px grey
   transform: translate(-50%, -50%);
   background: transparent;
   text-decoration: underline;
+  font-style:italic;
+  font-family: cursive;
 }
 #subtitletext img {
   display: flex;
