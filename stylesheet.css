@@ -118,7 +118,7 @@ border-radius: 10px;
 }
 .totalcontainer img:hover {
 opacity: 1;
-transform: scaleY(1.6);
+transform: scaleY(1.5);
 }
 .smallcontainer p {
     text-align: center;
@@ -351,4 +351,9 @@ nav a {
   background-color:rgb(168, 206, 99);
   font-size: 100%;
 }
+.totalcontainer img:hover {
+  opacity: 1.1;
+  transform: scaleY(1.3);
+  }
+
 }
