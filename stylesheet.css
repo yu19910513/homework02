@@ -57,32 +57,32 @@ h1 {
 
 }
 .smallcontainer_bus {
-  /*background-image: url(./assest/bussiness.jpeg)*/;
+  /*background-image: url(./assest/bussiness.jpeg);*/
   box-sizing: border-box;
   height: auto;
   width: 50%;
 }
 
 .smallcontainer_cli {
-  /*background-image: url(./assest/clinical.jpeg)*/;
+  /*background-image: url(./assest/clinical.jpeg);*/
   box-sizing: border-box;
   height: auto;
   width: 33.33%;
 }
 .smallcontainer_com {
-  /*background-image: url(./assest/community\ .jpeg)*/;
+  /*background-image: url(./assest/community\ .jpeg);*/
   box-sizing: border-box;
   height: auto;
   width: 33.33%;
 }
 .smallcontainer_inf {
-  /*background-image: url(./assest/informatics.jpeg)*/;
+  /*background-image: url(./assest/informatics.jpeg);*/
   box-sizing: border-box;
   height: auto;
   width: 33.33%;
 }
 .smallcontainer_ino {
-  /*background-image: url(./assest/innovation\ .jpeg)*/;
+  /*background-image: url(./assest/innovation\ .jpeg);*/
   box-sizing: border-box;
   height: auto;
   width: 50%;
@@ -125,7 +125,7 @@ transform: scaleY(1.2);
 }
 .contactlist li {
   float:left;
-  padding: 2px 2px
+  padding: 5px 2px;
 }
 .contactlist li a {
   display: inline-block;
@@ -223,14 +223,30 @@ box-shadow: 10px 10px 10px grey
   font-size: 120%;
 }
 form {
-margin: 10px;
+margin: 40px;
 box-sizing: border-box;
   height: auto;
-  width: 10%;
+  width: 50%;
   height: auto;
   position: relative;
   display: flex;
+  left: 20%;
+  color: blue;
 }
 #TITLE {
 text-align: center;
+}
+
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: monospace;
+  text-align: center;
+}
+form button {
+color: burlywood;
+background-image: url(./assest/informatics.jpeg);
+}
+footer h2 {
+  font-size: 20px;
 }
