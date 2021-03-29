@@ -127,12 +127,11 @@ transform: scaleY(1.2);
 .contactlist {
   display: flex;
   justify-content: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:#333;
-}
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;}
+
 .contactlist li {
   float:left;
   padding: 5px 2px;
@@ -330,6 +329,7 @@ h5 {
 form {
 width: 95%;
 margin-left: -18%;
+margin-top:4%;
 }
 nav a {
   margin-top: -10px;
@@ -338,7 +338,17 @@ nav a {
   justify-content:space-around;
   border-color: aqua;
   }
-  .contactme {
+.contactme {
     margin-top: 10px;
     }
+.active:hover::after {
+      content:none;
+}
+.active:hover::before {
+  content: none;
+}
+.active:hover {
+  background-color:rgb(168, 206, 99);
+  font-size: 100%;
+}
 }
