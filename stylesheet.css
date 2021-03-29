@@ -4,6 +4,10 @@ width: 100%;
 background-color:#fff5ee;
 }
 
+:root {
+  --green: rgb(12, 85, 85);
+  --main: #fff5ee
+}
 h5 {
     font-size: 120%;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -15,8 +19,8 @@ h5 {
 h3 {
     width:auto;
     border: 1px solid rgb(151, 170, 151);
-    padding: 5px;
-    margin: 0px;
+    padding: 45px;
+    margin: 2px;
     background-image: url(./assest/coding.jpeg);
     text-align: left;
     color: white;
@@ -231,10 +235,14 @@ box-sizing: border-box;
   position: relative;
   display: flex;
   left: 20%;
-  color: blue;
+  color:var(--green);
+  font-family: cursive;
+  box-shadow: 2px 2px 8px var(--green);
 }
 #TITLE {
 text-align: center;
+text-decoration: underline;
+font-size: x-large;
 }
 
 footer {
@@ -244,8 +252,10 @@ footer {
   text-align: center;
 }
 form button {
-color: burlywood;
-background-image: url(./assest/informatics.jpeg);
+color: var(--main);
+background-color: var(--green);
+font-family: cursive;
+font-size: 120%;
 }
 footer h2 {
   font-size: 20px;
