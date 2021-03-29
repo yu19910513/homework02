@@ -243,6 +243,10 @@ box-sizing: border-box;
 text-align: center;
 text-decoration: underline;
 font-size: x-large;
+background-image: url(./assest/pencil.jpeg);
+background-repeat: no-repeat;
+background-position:right;
+background-size: contain;
 }
 
 footer {
