@@ -9,17 +9,17 @@
 </head>
 <body>
 <header class="headerforphoto">
-    <img src="./coding.jpeg" alt="coding">
+    <img src="./assest/coding.jpeg" alt="coding">
     <h1>Rex's Portfolio</h1>
 </header>
 <nav>
 <a href="#aboutme">About Me</a>
 <a href="#work">Work</a>
 <a href="#contactme">Contact Me</a>
-<a href="#">Resume</a>
+<a href="./assest/RESUME 1.pdf" download="resume">Resume</a>
 </nav>
 <div>
-    <img src="./subtitile.jpeg" alt="subtitile">
+    <img src="./assest/subtitile.jpeg" alt="subtitile">
     <h2 id="subtitletext">Information Technology in Healthcare</h2>
 </div>
 <main>
@@ -34,31 +34,31 @@
 <div class="totalcontainer">
 <section class="smallcontainer_cli">
 <h5>Clinical Projects</h5>
-<img src="./clinical.jpeg" alt="clinical">
+<img src="./assest/clinical.jpeg" alt="clinical">
 <p>peer reviews of clinical trial, biomedical analysis, COVID-19 studies</p>
 </section>
 
 <section class="smallcontainer_inf">
 <h5>Informatics</h5>
-<img src="./informatics.jpeg" alt="informatics">
+<img src="./assest/informatics.jpeg" alt="informatics">
 <p>consultation, data reconciliation, MTM </p>
 </section>
 
 <section class="smallcontainer_com">
 <h5>Community Services</h5>
-<img src="./community .jpeg" alt="community">
+<img src="./assest/community .jpeg" alt="community">
 <p>medication dispensing, drug-drug interaction, immunization services</p>
 </section>
 
 <section class="smallcontainer_ino">
 <h5>Innovation</h5>
-<img src="./innovation .jpeg" alt="innovation">
+<img src="./assest/innovation .jpeg" alt="innovation">
 <p>mail order, 4-point system, drive-thru services</p>
 </section>
 
 <section class="smallcontainer_bus">
 <h5>Bussiness Development</h5>
-<img src="./bussiness.jpeg" alt="bussiness">
+<img src="./assest/bussiness.jpeg" alt="bussiness">
 <p>compounding pharmacy, vet medicine collaberation, stewardship</p>
 </section>
 </div>
@@ -75,6 +75,44 @@
         <li><a class="active" href="mailto:yu19910513@gmail.com" data-email="yu19910513@gmail.com">Email Me!</a></li>
     </ul>
 </section>
+<form>
+  <fieldset>
+    <legend id="TITLE"><strong> Contact Me</strong></legend>
+    <div>
+      <label>Last Name, First Name</label>
+      <input type="text" placeholder="Yu, Rex"/>
+    </div>
+    <div>
+      <label>Company Name</label>
+      <input type="text" name="companyname" id="companyname" placeholder="e.g. Microsoft"/>
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="text" placeholder="me@hotmail.com"/>
+    </div>
+    <div>
+      <label for="Industry">Industry</label>
+      <select name="Industry" id="Industryname">
+        <option value="0">---</option>
+        <option value="Technology">Technology</option>
+        <option value="Healthcare">Healthcare</option>
+        <option value="Bussiness">Bussiness</option>
+        <option value="Others">Others</option>
+      </select>
+    </div>
+    <div>
+      <label for="expiration">date</label>
+      <input type="date" />
+    </div>
+    <div>
+      <label for="bio">Message</label>
+      <textarea name="about you" id="about" cols="20" rows="20" placeholder="I will respond to your message in 48 hours."></textarea>
+    </div>
+    <div>
+      <button type="submit">add this visitor</button>
+    </div>
+  </fieldset>
+</form>
 <footer>
 
 </footer>
