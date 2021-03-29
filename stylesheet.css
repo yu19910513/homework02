@@ -36,18 +36,24 @@ nav a:hover {
   color: blanchedalmond;
 }
 
-h1 {
-  font-size: 300%;
-  text-align:center;
-  margin-left: 420px;
-  text-shadow: 2px 2px 2px grey;
-  position:absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: transparent;
+.headerforphoto {
+  position: relative;
+  display: block;
+  background-image: url(./assest/coding.jpeg);
+  height: 300px;
+  text-align: left;
+  color: var(--main);
 }
-
+h1 {
+font-size: 300%;
+text-shadow: 2px 2px 2px grey;
+background: transparent;
+margin-top: 0%;
+}
+.headerforphoto p {
+  background-color: transparent;
+  font-size:x-large;
+}
 .smallcontainer_cli, .smallcontainer_bus, .smallcontainer_ino, .smallcontainer_inf, .smallcontainer_com{
     border-style: solid;
     border-width: 1px;
@@ -164,17 +170,9 @@ font-size: small;
 .contactme {
 margin-top: 50px;
 }
-.headerforphoto {
-  position: relative;
-  text-align: center;
-  color: white;
-  display: flex;
-}
 
 .headerforphoto img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover
+display: none;
 }
 nav {
   margin-top: 10px;
@@ -219,7 +217,7 @@ box-shadow: 10px 10px 10px grey
   height: 500px;
   background-image: url(./assest/subtitile.jpeg);
   background-size: cover;
-  border-radius: 3%;
+  border-radius: 1%;
 }
 
 
@@ -267,4 +265,80 @@ font-size: 120%;
 }
 footer h2 {
   font-size: 20px;
+}
+@media screen and (max-width: 992px){
+.headerforphoto {
+  text-align: center;
+}
+}
+@media screen and (max-width: 768px) {
+.headerforphoto {
+height: 60%;
+font-size: 80%;
+}
+.headerforphoto p {
+font-size: large
+}
+.subtitle {
+  margin-top:10px;
+  margin-bottom: 10px;
+  height: 300px;
+  background-image: url(./assest/subtitile.jpeg);
+  border-radius: 3%;
+  font-size: small;
+}
+#subtitletext {
+  top: 20%;}
+
+.smallcontainer_cli, .smallcontainer_inf {
+  width: 50%;
+}
+.smallcontainer_com, .smallcontainer_ino {
+  width: 50%;
+}
+.smallcontainer_bus {
+  width: 100%;
+}
+h3 {
+  text-align: center;
+}
+form {
+  width: 75%;
+  margin-left: -10%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .subtitle {
+    margin-top:10px;
+    margin-bottom: 5px;
+    height: 100px;
+    background-image: url(./assest/subtitile.jpeg);
+    font-size: 40%;
+  }
+  #subtitletext {
+    top: 20%;
+    font-family: serif;
+    color: var(--main);
+  }
+  .smallcontainer_cli, .smallcontainer_bus, .smallcontainer_ino, .smallcontainer_inf, .smallcontainer_com{
+  width: 100%;
+}
+h5 {
+  text-align: center;
+  font-size: xx-large;
+}
+form {
+width: 95%;
+margin-left: -18%;
+}
+nav a {
+  margin-top: -10px;
+  width: auto;
+  height: 80%;
+  justify-content:space-around;
+  border-color: aqua;
+  }
+  .contactme {
+    margin-top: 10px;
+    }
 }
